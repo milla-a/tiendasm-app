@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Acordeon from './components/Acordeon';
+import Cards from './components/cards';
+import Navbar from './components/navbar';
+import Head from './components/head';
 
 function App() {
   return (
@@ -10,15 +14,12 @@ function App() {
         </h1>
         <img src={logo} className="App-logo" alt="logo" />
         <br></br>
-        <a
-          className="App-link"
-          href="https://millaa.cl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Pronto...
-        </a>
-        <h6>Proyecto de: Millaray Quezada</h6>
+        <h6>Proyecto de: Millaray Quezada</h6> 
       </header>
+
+      <Navbar/> <br />
+      <Cards/> <br />
+
     </div>
   );
 }
