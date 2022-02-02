@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Acordeon from './components/Acordeon';
-import Cards from './components/cards';
-import Navbar from './components/navbar';
+import Cards from './components/Cards/Cards';
+import Navbar from './components/Navbar/Navbar';
 import Head from './components/head';
+import Modal from './components/modal';
+
 
 function App() {
   return (
     <div className="App">
+
+
+      <Navbar/> <br />
+      <Cards/> <br />
       <header className="App-header">
       <h1>
          Tienda Smart Watch
@@ -16,10 +22,6 @@ function App() {
         <br></br>
         <h6>Proyecto de: Millaray Quezada</h6> 
       </header>
-
-      <Navbar/> <br />
-      <Cards/> <br />
-
     </div>
   );
 }
