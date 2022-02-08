@@ -4,7 +4,6 @@ import Button from "../Button/Button";
 import CartWidget from "../CartWidget/CartWidget";
 
 
-
 function NavBar({title, ...rest})  {
     
     const handleOferta = () => {
@@ -31,6 +30,7 @@ function NavBar({title, ...rest})  {
             <CartWidget handleClick={handleCarrito}/>
         </ul>
         </nav>
+
     );
   }
 
